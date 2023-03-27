@@ -3,7 +3,7 @@ package HomeWork.dz_5_all;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InMemoryNoteStorage {
+public class InMemoryNoteStorage implements NoteStorage {
     private final List<Note> notes = new ArrayList<>();
 
     @Override

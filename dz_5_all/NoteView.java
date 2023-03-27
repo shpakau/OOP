@@ -1,6 +1,7 @@
 package HomeWork.dz_5_all;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class NoteView {
     // add a default constructor
@@ -16,6 +17,7 @@ public class NoteView {
 
     public String getNoteFromUser() {
         System.out.println("Введите новую запись:");
+        Scanner scanner;
         scanner.nextLine();
         return scanner.nextLine();
     }

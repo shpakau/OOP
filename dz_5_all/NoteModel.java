@@ -16,4 +16,7 @@ public class NoteModel {
     public List<String> getAll() {
         return noteStorage.getAll();
     }
+
+    public int getText() {
+    }
 }

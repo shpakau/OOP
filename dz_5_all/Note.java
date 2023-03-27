@@ -1,25 +1,18 @@
 package HomeWork.dz_5_all;
-
 public class Note {
-    private String text;
+    private final String title;
+    private final String text;
 
-    public Note() {
+    public Note(String title, String text) {
+        this.title = title;
+        this.text = text;
     }
 
-    public Note(String text) {
-        this.text = text;
+    public String getTitle() {
+        return title;
     }
 
     public String getText() {
-        return text;
-    }
-
-    public void setText(String text) {
-        this.text = text;
-    }
-
-    @Override
-    public String toString() {
         return text;
     }
 }
